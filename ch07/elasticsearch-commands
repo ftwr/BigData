@@ -1,0 +1,9 @@
+
+Show info about stack_name and version:
+curl -X GET localhost:9200
+
+Show indices:
+curl -X GET localhost:9200/_cat/indices?v
+
+Delete all indices, use carefully!:
+curl -X DELETE 'http://localhost:9200/_all'

@@ -5,5 +5,9 @@ curl -X GET localhost:9200
 Show indices:
 curl -X GET localhost:9200/_cat/indices?v
 
+Delete one-selected index:
+curl -XDELETE 'http://localhost:9200/filebeat-7.4.2-2019/'
+
 Delete all indices, use carefully!:
 curl -X DELETE 'http://localhost:9200/_all'
+
